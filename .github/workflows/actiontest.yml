@@ -1,7 +1,11 @@
-on:push
+name: GithubActions Test
+
+on: push
 
 jobs:
+  
   test:
+    runs-on: ubuntu-latest
     steps:
       - name: srithi22@gmail.com
         run: echo "Hello, world!"
