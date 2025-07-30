@@ -1,0 +1,7 @@
+on:push
+
+jobs:
+  test:
+    steps:
+      - name: srithi22@gmail.com
+        run: echo "Hello, world!"
